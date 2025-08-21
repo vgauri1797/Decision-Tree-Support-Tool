@@ -1,0 +1,9 @@
+Node Path,Is Decision,Is Inbetween Node,Probability,Net Value
+Purchase Yugo,false,false,0,0
+Purchase Yugo->With Insurance,false,false,0,0
+Purchase Yugo->With Insurance->Lemon,false,false,0.2,40
+Purchase Yugo->With Insurance->Peach,false,false,0.8,20
+Purchase Yugo->Without Insurance,false,false,0,0
+Purchase Yugo->Without Insurance->Lemon,false,false,0.2,-100
+Purchase Yugo->Without Insurance->Peach,false,false,0.8,60
+Purchase Yugo->Don't Buy,false,false,0,0

@@ -1,0 +1,47 @@
+Node Path,Is Decision,Is Inbetween Node,Probability,Net Value
+Develop Product,true,false,0,0
+Develop Product->High-End Laptop,true,false,0,0
+Develop Product->High-End Laptop->With Marketing,false,true,0,0
+Develop Product->High-End Laptop->With Marketing->With Regulations,false,false,0.4,0
+Develop Product->High-End Laptop->With Marketing->With Regulations->Competitor Release,false,false,0.35,-1290000
+Develop Product->High-End Laptop->With Marketing->With Regulations->Success,false,false,0.65,-1030000
+Develop Product->High-End Laptop->With Marketing->Without Regulations,false,false,0.6,0
+Develop Product->High-End Laptop->With Marketing->Without Regulations->Competitor Release,false,false,0.35,-1070000
+Develop Product->High-End Laptop->With Marketing->Without Regulations->Success,false,false,0.65,-770000
+Develop Product->High-End Laptop->Without Marketing,false,true,0,0
+Develop Product->High-End Laptop->Without Marketing->With Regulations,false,false,0.4,0
+Develop Product->High-End Laptop->Without Marketing->With Regulations->Competitor Release,false,false,0.35,-1040000
+Develop Product->High-End Laptop->Without Marketing->With Regulations->Success,false,false,0.65,-780000
+Develop Product->High-End Laptop->Without Marketing->Without Regulations,false,false,0.6,0
+Develop Product->High-End Laptop->Without Marketing->Without Regulations->Competitor Release,false,false,0.35,-820000
+Develop Product->High-End Laptop->Without Marketing->Without Regulations->Success,false,false,0.65,-520000
+Develop Product->Budget Tablet,true,false,0,0
+Develop Product->Budget Tablet->With Marketing,false,true,0,0
+Develop Product->Budget Tablet->With Marketing->With Regulations,false,false,0.4,0
+Develop Product->Budget Tablet->With Marketing->Without Regulations,false,false,0.6,0
+Develop Product->Budget Tablet->With Marketing->With Regulations->Market Acceptance,false,false,0.8,-650000
+Develop Product->Budget Tablet->With Marketing->With Regulations->Market Failure,false,false,0.2,-770000
+Develop Product->Budget Tablet->With Marketing->Without Regulations->Market Acceptance,false,false,0.8,-450000
+Develop Product->Budget Tablet->With Marketing->Without Regulations->Market Failure,false,false,0.2,0,-610000
+Develop Product->Budget Tablet->Without Marketing,false,true,0,0
+Develop Product->Budget Tablet->Without Marketing->With Regulations,false,false,0.4,0
+Develop Product->Budget Tablet->Without Marketing->Without Regulations,false,false,0.6,0
+Develop Product->Budget Tablet->Without Marketing->With Regulations->Market Acceptance,false,false,0.8,-400000
+Develop Product->Budget Tablet->Without Marketing->With Regulations->Market Failure,false,false,0.2,-520000
+Develop Product->Budget Tablet->Without Marketing->Without Regulations->Market Acceptance,false,false,0.8,-200000
+Develop Product->Budget Tablet->Without Marketing->Without Regulations->Market Failure,false,false,0.2,-360000
+Develop Product->Smart Home Device,true,false,0,0
+Develop Product->Smart Home Device->With Marketing,false,true,0,0
+Develop Product->Smart Home Device->Without Marketing,false,true,0,0
+Develop Product->Smart Home Device->With Marketing->With Regulations,false,false,0.4,0
+Develop Product->Smart Home Device->With Marketing->Without Regulations,false,false,0.6,0
+Develop Product->Smart Home Device->With Marketing->With Regulations->With Partnership,false,false,0.6,-610000
+Develop Product->Smart Home Device->With Marketing->With Regulations->Without Partnership,false,false,0.4,-980000
+Develop Product->Smart Home Device->With Marketing->Without Regulations->With Partnership,false,false,0.6,-370000
+Develop Product->Smart Home Device->With Marketing->Without Regulations->Without Partnership,false,false,0.4,-820000
+Develop Product->Smart Home Device->Without Marketing->With Regulations,false,false,0,0
+Develop Product->Smart Home Device->Without Marketing->Without Regulations,false,false,0,0
+Develop Product->Smart Home Device->Without Marketing->With Regulations->With Partnership,false,false,0.6,-360000
+Develop Product->Smart Home Device->Without Marketing->With Regulations->Without Partnership,false,false,0.4,-730000
+Develop Product->Smart Home Device->Without Marketing->Without Regulations->With Partnership,false,false,0.6,-120000
+Develop Product->Smart Home Device->Without Marketing->Without Regulations->Without Partnership,false,false,0.4,-570000
